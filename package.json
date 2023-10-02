@@ -1,25 +1,30 @@
 {
-  "name": "first-react-native",
+  "name": "frontendapp",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "test:types": "tsc"
   },
   "dependencies": {
-    "@expo/webpack-config": "^18.0.1",
-    "@react-navigation/stack": "^6.3.16",
-    "expo": "~48.0.9",
-    "expo-status-bar": "~1.4.4",
+    "expo": "~49.0.13",
+    "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-native": "0.71.6",
-    "react-native-web": "~0.18.10"
+    "react-native": "0.72.5",
+    "remove": "^0.1.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "@types/jest": "^29.5.5",
+    "@types/react": "^18.2.24",
+    "@types/react-native": "^0.72.3",
+    "@types/react-test-renderer": "^18.0.3",
+    "ts-migrate": "^0.1.35",
+    "typescript": "^5.2.2"
   },
+ 
   "private": true
 }
